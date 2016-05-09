@@ -19,6 +19,13 @@
      <listener>
          <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
      </listener>
-
-
+    <!-- This will catch Http 500 error -->
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error.jsp</location>
+    </error-page>
+    <!-- This will catch any exception -->
+    <error-page>
+        <location>/error.jsp</location>
+    </error-page>
 </web-app>

@@ -26,15 +26,15 @@
             </div>
             <div class=”form-group”>
                 <label class="newline" for="username">Username</label>
-                <input name="username" id="username" type="text"  placeholder="postgres"/>
+                <input name="username" id="username" type="text" required  placeholder="postgres"/>
             </div>
             <div class=”form-group”>
                 <label class="newline" for="password">Password</label>
-                <input name="password" id="password" type="password"  placeholder="12345"/>
+                <input name="password" id="password" type="password" required  placeholder="12345"/>
             </div>
             <div class=”form-group”>
                 <label class="newline" for="schema">Schema</label>
-                <input name="schema" id="schema" type="text" placeholder="Your Schema" required/>
+                <input name="schema" id="schema" type="text" required placeholder="Your Schema" required/>
             </div>
             <button type="submit" class=”btn btn-default”>Submit</button>
         </form>

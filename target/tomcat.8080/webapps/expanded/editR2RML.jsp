@@ -41,7 +41,7 @@
                 <label class="newline" for="property${status.index}">${element}</label>
                 <input name="property${status.index}" id="property${status.index}" type="text" required autofocus placeholder="property" />
 
-                <label class="radio-inline"><input type="radio" value="rr:Literal" name="radio${status.index}">Literal</label>
+                <label class="radio-inline"><input type="radio" value="rr:Literal" name="radio${status.index}" checked="checked">Literal</label>
                 <label class="radio-inline"><input type="radio" value="xsd:integer" name="radio${status.index}">Integer</label>
                 <label class="radio-inline"><input type="radio" value="rr:constant <http://example.com/vocabulary/example>" name="radio${status.index}">Constant</label>
             </div>
