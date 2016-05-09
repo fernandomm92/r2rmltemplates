@@ -1,0 +1,11 @@
+.newline {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}​
+input{
+    width: 150px;
+ }
+#prefixTextarea{
+    max-height: 100px;
+}

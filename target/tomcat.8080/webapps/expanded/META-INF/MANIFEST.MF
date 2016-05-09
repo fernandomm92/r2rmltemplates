@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: SpringMVCProject
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.fernando
+Built-By: ferna
+Build-Jdk: 1.7.0_79
+Start-Class: com.fernando.controller.Application
+Created-By: Apache Maven 3.3.9
+Spring-Boot-Version: 1.3.3.RELEASE
+Main-Class: org.springframework.boot.loader.WarLauncher
+Archiver-Version: Plexus Archiver
+
